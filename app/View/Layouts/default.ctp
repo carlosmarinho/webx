@@ -27,18 +27,5 @@
 	</div>
 
 </body>
-<script>
 
-setInterval(ajaxCall, 1000);
-function ajaxCall(){
-    $.ajax({
-        url: "email/ajax",
-        cache: false
-    })  
-    .done(function( html ) {
-        $( "#lista_de_email" ).html( html );
-    });
-}    
-
-</script>
 </html>
