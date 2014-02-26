@@ -23,4 +23,5 @@ INSERT INTO `webx`.`urls`(url) VALUES('https://www.google.com.br/?gfe_rd=ctrl&ei
 
 
 => Para rodar o crawler basta digitar no navegador o link: http://localhost/webx/url/crawler
+
 => Para visualizar os emails basta digitar o link: http://localhost/webx/email
